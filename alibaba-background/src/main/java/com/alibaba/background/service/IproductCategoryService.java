@@ -6,6 +6,6 @@ import com.alibaba.entity.ProductCategory;
 
 public interface IproductCategoryService {
 
-	List<ProductCategory> getProductCategoryById(String pid);
+	List<ProductCategory> getProductCategoryById(Integer pid);
 
 }

@@ -1,0 +1,23 @@
+package com.alibaba.background.service.impl;
+
+import java.util.List;
+
+import com.alibaba.background.service.IproductCategoryService;
+import com.alibaba.entity.ProductCategory;
+
+public class ProductCategoryServiceImpl implements IproductCategoryService {
+
+	@Override
+	public List<ProductCategory> getProductCategoryById(String pid) {
+		
+		return null ;
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

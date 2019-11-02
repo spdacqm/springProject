@@ -7,10 +7,10 @@
         <dependent-module archiveName="alibaba-mapper-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/alibaba-mapper/alibaba-mapper">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="alibaba-entity-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/alibaba-entity/alibaba-entity">
+        <dependent-module archiveName="alibaba.commons-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/alibaba-commons/alibaba-commons">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="alibaba.commons-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/alibaba-commons/alibaba-commons">
+        <dependent-module archiveName="alibaba-entity-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/alibaba-entity/alibaba-entity">
             <dependency-type>uses</dependency-type>
         </dependent-module>
         <property name="context-root" value="alibaba-background"/>

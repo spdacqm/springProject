@@ -1,0 +1,35 @@
+package com.alibaba.background.service.impl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.alibaba.background.service.IproductCategoryService;
+import com.alibaba.entity.ProductCategory;
+import com.alibaba.entity.ProductCategoryExample;
+import com.alibaba.entity.ProductCategoryExample.Criteria;
+import com.alibaba.mapper.ProductCategoryMapper;
+
+public class ProductCategoryServiceImpl implements IproductCategoryService {
+	
+	@Autowired
+	private ProductCategoryMapper ProductCategoryMapper;
+	
+	@Override
+	public List<ProductCategory> getProductCategoryById(String pid) {
+		
+		ProductCategoryExample example = new ProductCategoryExample();
+		
+		
+		
+		return ProductCategoryMapper.selectByExample(example) ;
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
