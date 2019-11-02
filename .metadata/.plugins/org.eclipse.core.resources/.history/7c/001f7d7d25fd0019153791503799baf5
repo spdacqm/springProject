@@ -1,0 +1,5 @@
+package com.alibaba.background.controller;
+
+public class ProductCategoryController {
+
+}

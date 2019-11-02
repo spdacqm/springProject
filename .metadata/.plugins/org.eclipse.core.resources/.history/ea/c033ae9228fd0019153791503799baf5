@@ -1,0 +1,5 @@
+package com.alibaba.background.service.impl;
+
+public class ProductCategoryServiceImpl {
+
+}

@@ -1,0 +1,5 @@
+package com.alibaba.background.service;
+
+public interface IproductCategoryService {
+
+}

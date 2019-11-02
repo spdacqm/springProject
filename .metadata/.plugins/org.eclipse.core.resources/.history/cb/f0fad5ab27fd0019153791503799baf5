@@ -1,0 +1,11 @@
+package com.alibaba.background.controller;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+
+private IproductCategoryService productCategoryService;
+
+
+@RequestMapping("productCategoryController")
+public class ProductCategoryController {
+	
+}
